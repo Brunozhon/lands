@@ -13,24 +13,24 @@
     
     <!-- Lands scripts -->
     <script src="scripts/snowyland.js"></script>
+    <script src="scripts/computer.js"></script>
     
     <title>Lands</title>
   </head>
   <body>
     <h1>Lands</h1>
     
-    <div id="jsDiv">
-    </div>
+    <pre id="jsPre">
+    </pre>
     
     <!-- Main script (the script wich interacts with the DOM) -->
     <script>
-      (function(snowylandbg, div) {
-        
-      }).call(
-        this, // The 'this' to use when calling the 'call' function
-        fetch("backgrounds/snowyland.txt"), // The snowy land background
-        document.getElementById("jsDiv") // The div to use in the script
-      )
+      (function(snowylandbg, computerbg, pre, w, d) {
+        // Testing
+        if (w.document == d) {console.warn("window.document should equal document.")}
+        // Place on the DOM
+        computerbg.then(r => r.text()).then(t => pre.innerHTML = t);
+      }).call(this, /* The 'this' to use when calling the 'call' function */ fetch("backgrounds/snowyland.txt"), /* The snowy land background */ fetch("backgrounds/computer.txt"), /* The computer background */ document.getElementById("jsPre"), /* The div to use in the script */ window, /* The window to use */ document /* The document to use */)
     </script>
   </body>
 </html>
