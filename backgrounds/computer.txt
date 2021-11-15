@@ -1,0 +1,19 @@
+|-----------------------------------------------------------------------------------------------------|
+| Welcome to the crypto protal!                                                                       |
+| The crypto protal contains all you need to operate this computer.                                   |
+| Sadly, to take full control, you will need millions of crypto. We call this mcy.                    |
+| And, by the way, crypto is cy.                                                                      |
+| ##################### HELP MANUAL #####################                                             |
+| Coming soon!                                                                                        |
+| Prompt: Do you want to see when it will come out? (y/n)[y] >                                        |
+| Prompt timed out. It wlill maybe come around January 2022.                                          |
+| Launcing UI [#--------]                                                                             |
+| Launcing UI [##-------]                                                                             |
+| Rendering Crypto HTML [###-----]                                                                    |
+| Rendering Crypto HTML [####----]                                                                    |
+| Styling Crypto HTML using Crypto CSS, part 1 of 2 [#####---]                                        |
+| Styling Crypto HTML using Bootstrap, part 2 of 2 [######--]                                         |
+| Loading Crypto JavaScript [########-]                                                               |
+| Executing Crypto JavaScript [########]                                                              |
+| Execute command here: >                                                       < Or use the UI below |
+|-----------------------------------------------------------------------------------------------------|
